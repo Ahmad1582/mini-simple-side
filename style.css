@@ -1,0 +1,66 @@
+aside{
+ float: right;
+  width: 150px;
+}
+aside ul{
+   list-style-type: none;
+}
+aside a{
+    text-decoration: none;
+    cursor: pointer;
+}
+.head{
+    margin-left: 50px;
+    text-align: right;
+}
+.header{
+    margin-left: 80px;
+    font-weight: 100;
+    font-size: 20px;
+    text-align: right;
+}
+.side {
+   background-color: rgb(53, 50, 50);
+   color:azure;
+   border-radius: 2px;
+   box-shadow: 10px black;
+   padding-right:10px;
+}
+.side a{
+    color: aliceblue;
+}
+.side a:hover{
+    color: rgb(121, 118, 110);
+}
+.side ul li a{
+    display:contents;
+    padding: 15px;
+}
+.side ul li {
+    position: relative;
+    text-align: right;
+}
+.side ul li ul {
+    visibility: hidden;
+    position: absolute;
+    right: 100%;
+    top: 0;
+    background-color: #494f58;
+    width: 170px;
+    z-index: 999999;
+    border-radius: 4px;
+    text-align: right;
+    padding-right:11px;
+    padding-top:5px;
+}
+.side ul li:hover ul{
+    opacity: 1;
+    visibility: visible;
+}
+.head:hover{
+    background-color: aliceblue;
+    border-radius: 3px;
+}
+.side ul li {
+    margin-bottom: 15px;
+}
